@@ -1,0 +1,92 @@
+{
+  "name": "architectiq",
+  "displayName": "ArchitectIQ",
+  "description": "AI-powered multi-agent development system that plans architecture, predicts change impact, and generates implementation-ready prompts inside VS Code.",
+  "version": "1.1.0",
+  "publisher": "RIGCopilotLabs",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "AI",
+    "Machine Learning",
+    "Testing",
+    "Debuggers"
+  ],
+  "keywords": [
+    "ai",
+    "code generation",
+    "multi-agent",
+    "architecture",
+    "scaffolding",
+    "developer tools",
+    "productivity",
+    "llm",
+    "code assistant",
+    "project planning",
+    "testing",
+    "documentation",
+    "impact analysis",
+    "dependency graph",
+    "vscode extension"
+  ],
+  "activationEvents": [
+    "onCommand:archiq.generatePrompt",
+    "onCommand:archiq.copyLastPrompt",
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "icon": "media/icon.png",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "archiq-container",
+          "title": "ArchitectIQ",
+          "icon": "media/activitybar-icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "archiq-container": [
+        {
+          "type": "webview",
+          "id": "archiq.mainView",
+          "name": "ArchitectIQ",
+          "icon": "media/activitybar-icon.svg",
+          "contextualTitle": "ArchitectIQ"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "archiq.generatePrompt",
+        "title": "Generate Prompt from Workspace",
+        "category": "ArchitectIQ"
+      },
+      {
+        "command": "archiq.copyLastPrompt",
+        "title": "Copy Last Generated Prompt",
+        "category": "ArchitectIQ"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "node esbuild.js --production",
+    "compile": "node esbuild.js",
+    "watch": "node esbuild.js --watch",
+    "package": "vsce package",
+    "package:next": "npm version patch --no-git-tag-version && vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^2.22.0",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "vis-network": "^10.0.2"
+  }
+}
