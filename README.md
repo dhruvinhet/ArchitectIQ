@@ -9,7 +9,7 @@
 ![AI](https://img.shields.io/badge/AI-Powered-FF6F61?logo=openai&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.85+-007ACC?logo=visual-studio-code)
 
-![ArchitectIQ Banner](media/banner.png)
+![ArchitectIQ Banner](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/banner.png)
 
 ## Tagline
 
@@ -21,19 +21,19 @@ ArchitectIQ exists to eliminate guesswork in feature delivery by mapping archite
 
 Search for `ArchitectIQ` in the VS Code Extensions marketplace and open the extension details.
 
-![Step 1 - Search ArchitectIQ in Extensions](media/1.png)
+![Step 1 - Search ArchitectIQ in Extensions](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/1.png)
 
 ### Step 2: Open ArchitectIQ from the Activity Bar
 
 After installation, click the ArchitectIQ icon in the left Activity Bar to launch the extension view.
 
-![Step 2 - ArchitectIQ Activity Bar Icon](media/2.png)
+![Step 2 - ArchitectIQ Activity Bar Icon](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/2.png)
 
 ### Step 3: Enter a Feature Request and Generate
 
 Provide your feature request in the prompt input and click `Generate Architectural Prompt`.
 
-![Step 3 - Generate Architectural Prompt](media/3.png)
+![Step 3 - Generate Architectural Prompt](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/3.png)
 
 ### Step 4: Review Prompt Output and Analysis
 
@@ -41,31 +41,31 @@ Inspect two outputs:
 - `Agent Prompt` for downstream coding assistants
 - `Analysis Panel` explaining why specific files were selected
 
-![Step 4 - Agent Prompt and Analysis Panel](media/4.png)
+![Step 4 - Agent Prompt and Analysis Panel](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/4.png)
 
 ### Step 5: Open the Architecture Graph in Browser
 
 Click `Open Graph in Browser` to explore the repository dependency and impact graph.
 
-![Step 5 - Open Graph in Browser](media/5.png)
+![Step 5 - Open Graph in Browser](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/5.png)
 
 ### Step 6: Explore Interactive Graph Physics
 
 Use node interactions and physics-enabled movement to inspect structural relationships.
 
-![Step 6 - Interactive Graph View](media/6.png)
+![Step 6 - Interactive Graph View](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/6.png)
 
 ### Step 7: Focus on a Targeted Subgraph
 
 Use `Focus Subgraph` to isolate specific nodes and inspect related architecture details.
 
-![Step 7 - Focus Subgraph](media/7.png)
+![Step 7 - Focus Subgraph](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/7.png)
 
 ### Step 8: Copy Prompt and Use with Your Coding Agent
 
 Click `Copy Prompt`, then paste the output into your preferred coding assistant such as GitHub Copilot, Cursor, or Trae.
 
-![Step 8 - Copy Prompt for External Agent Use](media/8.png)
+![Step 8 - Copy Prompt for External Agent Use](https://raw.githubusercontent.com/dhruvinhet/ArchitectIQ/main/media/8.png)
 
 ## Key Features
 

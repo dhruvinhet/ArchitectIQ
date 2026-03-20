@@ -4,6 +4,14 @@
   "description": "AI-powered multi-agent development system that plans architecture, predicts change impact, and generates implementation-ready prompts inside VS Code.",
   "version": "1.1.0",
   "publisher": "RIGCopilotLabs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhruvinhet/ArchitectIQ.git"
+  },
+  "homepage": "https://github.com/dhruvinhet/ArchitectIQ",
+  "bugs": {
+    "url": "https://github.com/dhruvinhet/ArchitectIQ/issues"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
